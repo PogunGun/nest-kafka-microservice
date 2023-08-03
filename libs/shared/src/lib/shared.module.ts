@@ -1,8 +1,3 @@
-import { Module } from '@nestjs/common';
-
-@Module({
-  controllers: [],
-  providers: [],
-  exports: [],
-})
-export class SharedModule {}
+export function shared(): string {
+  return 'shared';
+}
